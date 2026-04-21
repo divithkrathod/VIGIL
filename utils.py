@@ -227,7 +227,7 @@ def draw_side_panel(
     # ── VIGIL title ────────────────────────────────────────────────────────
     _centered_text(canvas, "VIGIL", py + 34, config.WHITE_BGR,
                    _F_VIGIL, 1.0, 2, x_offset=px, width=pw)
-    _centered_text(canvas, "drowsiness monitor", py + 54, (100, 100, 100),
+    _centered_text(canvas, "DROWSINESS MONITOR", py + 54, (100, 100, 100),
                    _F_MONO, 0.8, 1, x_offset=px, width=pw)
 
     _hdivider(canvas, px, py + 66, pw)
